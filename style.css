@@ -1,0 +1,36 @@
+
+h1{ margin: 0px;
+    text-align-last: center;
+    background-color: rgb(249, 240, 229);
+    color: blue; border-radius: 5px;
+    background-image: linear-gradient(lightsalmon,tomato);
+}
+
+.menu-bar{
+    text-decoration:none ; padding: 10px;
+    text-align: center; float: left;
+color: rgb(44, 64, 57);
+}
+
+div a{margin: 0px;
+    background-color: bisque;color: brown;
+}
+.headline{ width: 50% ;
+    margin: 0px;
+    text-align-last: center;
+    background-color: rgb(249, 240, 229);
+    color: rgb(237, 237, 245); border-radius: 5px;
+    background-image: linear-gradient(rgb(222, 89, 36),rgb(123, 99, 95));
+}
+.text{
+float: left; margin: 0%; width: 40%;
+
+}
+.class{
+
+    margin: 10px;
+}
+.only-one{
+
+    color: darkorange;
+}
