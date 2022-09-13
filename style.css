@@ -1,18 +1,33 @@
+
+
+
+
+
+*{
+
+    box-sizing: border-box;
+}
+
 .top{ 
     background-image: url("backrounds/colors.jpg");
 }
 section{
     height: 500px;  
 }
+.devide {margin: 0px;
+    width: 40%;
+   float: left;
+    height: 100px;
+    margin-left: 4%; padding-left:2% 
+}
+.devide img{
+
+    width: auto; height: 400px;
+}
 .heading{
     color: rgb(197, 62, 62);
 }
-.devide{margin: 0px;
-   width: 40%;
-  float: left;
-   height: 100px;
-   margin-left: 4%; padding-left:2% ;
-} 
+
 .devide img{
     width: 100%; 
 }
@@ -24,20 +39,35 @@ section{
 .link{font-weight: bold; color: azure;
     text-decoration: none;
 }
+
+
 .second{
     background-image: url("backrounds/colors1.jpg");  
 }
 .devide1{
     margin: 0px;
     width: 40%;
-   float: left;
-    height: 100px;
-    margin-left: 4%; padding-left:2% ; 
+   float: left; overflow: auto;
+   
+    margin-left: 4%; padding-left:2% ; padding-top: 5%; 
  } 
  .devide1 img{
-    width: 100%;
+    width: 100%; height: 400px;
  }
 .heading2{
     color: aqua;
 }
+.div-clear{
+    clear: both;
+}
+.workpicture img{
+
+width:30%;
+    
+} 
+.worktext{
+    text-align: center;
+}
+section3{
+    margin-top: 20px; padding: auto;
 }
